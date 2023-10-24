@@ -1,6 +1,6 @@
 'use client'
 import { useTodos } from '@/store/todos';
-import React, { FormEvent, useState } from 'react'
+import { FormEvent, useState } from 'react'
 
 const AddTodo = () => {
     const [ todo, setTodo ] = useState("");

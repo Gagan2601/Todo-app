@@ -1,5 +1,4 @@
 'use client'
-
 import { useTodos } from "@/store/todos"
 import { useSearchParams } from "next/navigation";
 
